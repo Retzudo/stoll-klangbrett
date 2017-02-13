@@ -1,10 +1,10 @@
-<change> {
+{$SERVER_NAME} {
 errors stderr
 
 gzip
 
 root /home/caddy
-tls <redacted>
+tls {$LE_EMAIL}
 git github.com/23x/stoll-klangbrett /home/caddy/
 
 
