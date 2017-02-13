@@ -9,7 +9,6 @@ git github.com/23x/stoll-klangbrett /home/caddy/
 
 
 header / {
-  Content-Security-Policy "default-src 'self'; object-src 'none'; block-all-mixed-content; reflected-xss block;"
   X-Frame-Options "SAMEORIGIN"
   X-Xss-Protection "1; mode=block"
   X-Content-Type-Options "nosniff"
