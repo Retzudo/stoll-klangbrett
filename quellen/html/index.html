@@ -7,19 +7,24 @@
   <link href="stilblaetter/hauptstilblatt.css" rel="stylesheet">
 </head>
 <body>
-  <a id="gabeltaster" href="https://github.com/23x/stoll-klangbrett">
-    Gabeln Sie auf Deppendrehkreuz
-  </a>
-  <div class="behaeltnis">
-    <div id="kopfgrafik">
-      <img alt="Axel-Stoll-Klangbrett" src="bilder/klangsystem.png">
-    </div>
-    <div id="ueberschrift">
-      <h1>
-        <a href="http://sicherheit.reichsinter.net">Axel-Stoî-Klangbreû</a>
-      </h1>
-    </div>
-    <br class="clear">
+  <div id="gabeltaster">
+    <a href="https://github.com/23x/stoll-klangbrett">
+      Gabeln Sie auf Deppendrehkreuz
+    </a>
+  </div>
+
+  <main class="behaeltnis">
+    <header>
+      <div id="kopfgrafik">
+        <img alt="Axel-Stoll-Klangbrett" src="bilder/klangsystem.png">
+      </div>
+      <div id="ueberschrift">
+        <h1>
+          <a href="http://sicherheit.reichsinter.net">Axel-Stoî-Klangbreû</a>
+        </h1>
+      </div>
+    </header>
+
     <div class="klang">
       <h2 class="taster">logarithmische Spirale</h2>
       <audio controls="controls">
@@ -27,14 +32,14 @@
         <source src="daten/logarithmischeSpirale.ogg" type="audio/ogg">
       </audio>
     </div>
-	<div class="klang">
+	  <div class="klang">
       <h2 class="taster">Der TiÀ</h2>
       <audio controls="controls">
         <source src="daten/derTisch.mp3" type="audio/mp3">
         <source src="daten/derTisch.ogg" type="audio/ogg">
       </audio>
     </div>
-	<div class="klang">
+	  <div class="klang">
       <h2 class="taster">Facebook</h2>
       <audio controls="controls">
         <source src="daten/facebook.mp3" type="audio/mp3">
@@ -503,7 +508,7 @@
         <source src="daten/wortzufall.mp3" type="audio/mp3">
       </audio>
     </div>
-  </div>
+  </main>
   <script src="javaskripte/hauptskript.js" type="text/javascript"></script>
 </body>
 </html>
