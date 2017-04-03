@@ -1,1 +1,7 @@
 .sass-cache/
+node_modules/
+*.log
+
+verteilung/index.html
+verteilung/stilblaetter
+verteilung/javaskripte

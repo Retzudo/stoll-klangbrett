@@ -1,0 +1,22 @@
+{
+  "name": "stoll-klangbrett",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retzudo/stoll-klangbrett.git"
+  },
+  "author": "",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/Retzudo/stoll-klangbrett/issues"
+  },
+  "homepage": "https://github.com/Retzudo/stoll-klangbrett#readme",
+  "scripts": {
+    "compile": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
+  }
+}
